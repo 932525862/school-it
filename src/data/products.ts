@@ -1,6 +1,5 @@
 // Mahsulotlarni shu yerda qo'shing - juda oson!
 // Yangi mahsulot qo'shish uchun shunchaki ro'yxatga qo'shing
-
 export interface Product {
   id: string;
   name: string;
@@ -24,8 +23,34 @@ export const categories = [
   
 ];
 
+import product1 from "../astets/photo_2026-02-12_13-45-14.jpg"
+import product2 from "../astets/photo_2026-02-12_13-45-32.jpg"
+import product3 from "../astets/photo_2026-02-12_13-45-36.jpg"
+import product4 from "../astets/photo_2026-02-12_13-45-40.jpg"
+import product5 from "../astets/photo_2026-02-12_16-02-28.jpg"
+import product6 from "../astets/photo_2026-02-12_16-02-31.jpg"
+import product7 from "../astets/ij1.jpg"
+import product8 from "../astets/ij2.jpg"
+
+
+
 export const products: Product[] = [
   // === SMART SOATLAR ===
+  {
+    id: "1s",
+    name: "Smart Watch box",
+    price: 660,
+    images: [
+      
+      product2,
+      product7,
+      product8,
+      
+    ],
+    description: " 8 xil rangli band  , 4 ta  remishok va tetrs  mavjud",
+    category: "Smart soatlar",
+  },
+  
   {
     id: "1",
     name: "Smart Watch X8 Pro",
@@ -98,7 +123,17 @@ export const products: Product[] = [
     category: "Quloqchinlar",
   },
   {
-    id: "7",
+  id: "7",
+  name: "Smartwatch",
+  price: 500,
+  images: [
+   "https://images.uzum.uz/ci89ig75d7kom1ti6c10/original.jpg"
+  ],
+  description: "Bluetooth versiyasi: V4.1 + EDR chastota diapazoni: 20 Gts dan 20000 Gts gacha uzatish masofasi: 10 metrgacha ",
+  category: "Quloqchinlar",
+},
+  {
+    id: "8",
     name: "Gaming Earbuds G20",
     price: 1370,
     images: [
@@ -109,7 +144,18 @@ export const products: Product[] = [
     category: "Quloqchinlar",
   },
   {
-    id: "8",
+    id: "8s",
+    name: "Simsiz quloqchinlar TWS i18 Pods",
+    price: 218,
+    images: [
+      "https://images.uzum.uz/ch0fpivhj8j9g69dv1rg/original.jpg",
+    ],
+    description: "i18-TWS simsiz quloqchinlari ixcham.",
+    category: "AirPods",
+  },
+
+  {
+    id: "13",
     name: " Sennheiser PC 3 CHAT",
     price: 870,
     images: [
@@ -120,7 +166,7 @@ export const products: Product[] = [
     category: "Quloqchinlar",
   },
   {
-    id: "9",
+    id: "14",
     name: "Simli Naushnik HF-230",
     price: 500,
     images: [
@@ -130,7 +176,7 @@ export const products: Product[] = [
     category: "Quloqchinlar",
   },
   {
-    id: "10",
+    id: "15",
     name: "Noise Cancelling Earbuds NC300",
     price: 600,
     images: [
@@ -141,7 +187,7 @@ export const products: Product[] = [
     category: "Quloqchinlar",
   },
   {
-    id: "11",
+    id: "16",
     name: "Sport Naushnik S880",
     price: 170,
     images: [
@@ -156,7 +202,7 @@ export const products: Product[] = [
 
   // === NOUTBUKLAR ===
   {
-    id: "12",
+    id: "17",
     name: "MacBook Air 13inch",
     price: 40000,
     images: [
@@ -167,7 +213,7 @@ export const products: Product[] = [
     category: "Noutbuklar",
   },
   {
-    id: "13",
+    id: "18",
     name: "Noutbuk HP AMD ",
     price: 4500,
     images: [
@@ -178,7 +224,7 @@ export const products: Product[] = [
     category: "Noutbuklar",
   },
   {
-    id: "14",
+    id: "19",
     name: " Apple iPhone 15,",
     price: 31700,
     images: [
@@ -191,7 +237,7 @@ export const products: Product[] = [
 
  
   {
-    id: "15",
+    id: "20",
     name: "Smartfon Infinix Note 50 Pro,",
     price: 3000,
     images: [
@@ -201,7 +247,7 @@ export const products: Product[] = [
     category: "Telefonlar",
   },
   {
-    id: "16",
+    id: "21",
     name: "Smartfon Xiaomi Poco C71",
     price: 4300,
     images: [
@@ -212,7 +258,7 @@ export const products: Product[] = [
   },
   //sssss
   {
-    id: "17",
+    id: "22",
     name: "Monoblok Lenovo V50a-24IMB ",
     price: 16000,
     images: [
@@ -223,7 +269,7 @@ export const products: Product[] = [
     category: "Kompyuterlar",
   },
   {
-    id: "18",
+    id: "23",
     name: "Klaviatura + Sichqoncha Komplekti",
     price: 200,
     images: [
@@ -267,7 +313,7 @@ export const products: Product[] = [
   //   category: "Planshetlar",
   // },
   {
-    id: "22",
+    id: "24",
     name: "Aqliy Planshet 17 Max ",
     price: 3400,
     images: [
@@ -290,7 +336,7 @@ export const products: Product[] = [
 
   // === KITOBLAR ===
   {
-    id: "24",
+    id: "25",
     name: "Mukammal dasturlash 1. HTML va CSS",
     price: 320,
     images: [
@@ -300,7 +346,7 @@ export const products: Product[] = [
     category: "Kitoblar",
   },
   {
-    id: "25",
+    id: "26",
     name: "JavaScript",
     price: 300,
     images: [
@@ -310,7 +356,7 @@ export const products: Product[] = [
     category: "Kitoblar",
   },
   {
-    id: "26",
+    id: "27",
     name: "Futbol butsilar,",
     price: 670,
     images: [
@@ -321,7 +367,7 @@ export const products: Product[] = [
     
   },
   {
-    id: "27",
+    id: "28",
     name: "Futbol butsilar erkaklar uchun",
     price: 500,
     images: [
@@ -331,7 +377,7 @@ export const products: Product[] = [
 
   },
   {
-    id: "28",
+    id: "29",
     name: "Forma, futbol formasi.",
     price: 400,
     images: [
@@ -341,7 +387,7 @@ export const products: Product[] = [
     category: "Futbol",
   },
   {
-    id: "29",
+    id: "30",
     name: "Futbol retro-forma",
     price: 410,
     images: [
@@ -353,7 +399,7 @@ export const products: Product[] = [
 
   // === AKSESSUARLAR ===
   {
-    id: "30",
+    id: "31",
     name: "Futbol to'pi Molten",
     price: 430,
     images: [
@@ -363,7 +409,7 @@ export const products: Product[] = [
     category: "Aksessuarlar",
   },
   {
-    id: "31",
+    id: "32",
     name: "Powerbank 10000mAh",
     price: 434,
     images: [
@@ -373,7 +419,7 @@ export const products: Product[] = [
     category: "Aksessuarlar",
   },
  {
-    id: "32",
+    id: "33",
     name: "Laptop Sumkasi 15.6'",
     price: 270,
     images: [
@@ -385,7 +431,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "33",
+    id: "34",
     name: "Laptop Stendi Aluminium",
     price: 178,
     images: [
@@ -396,7 +442,7 @@ export const products: Product[] = [
   },
 
  {
-    id: "34",
+    id: "35",
     name: "Mouse Pad XXL 80x30",
     price: 200,
     images: [
@@ -407,7 +453,7 @@ export const products: Product[] = [
   },
 
 {
-    id: "35",
+    id: "36",
     name: "USB Hub 4-port 3.0",
     price: 124,
     images: [
@@ -418,7 +464,7 @@ export const products: Product[] = [
   },
 
   {
-    id: "36",
+    id: "37",
     name: "Kabel Tartiblagich (Organizer)",
     price: 150,
     images: [
@@ -452,7 +498,7 @@ export const products: Product[] = [
   //   category: "To'plamlar",
   // },
   {
-    id: "39",
+    id: "41",
     name: "Laptop Full Set (Sumka+Mouse+Pad)",
     price: 300,
     images: [
@@ -463,7 +509,7 @@ export const products: Product[] = [
     category: "To'plamlar",
   },
   {
-  id: "40",
+  id: "42",
   name: "AIRMESH G2 BLACK",
   price: 2330,
   images: [
@@ -474,7 +520,7 @@ export const products: Product[] = [
   category: "To'plamlar",
 },
 {
-  id: "41",
+  id: "43",
   name: "Noutbuk sovutgichi NCP-063",
   price: 445,
   images: [
@@ -486,7 +532,7 @@ export const products: Product[] = [
 },
 
 {
-  id: "42",
+  id: "44",
   name: "Izuchayem React. 2-ye izdaniye, Chinnatambi Kirupa",
   price: 1440,
   images: [
@@ -498,7 +544,7 @@ export const products: Product[] = [
 },
 
 {
-  id: "43",
+  id: "45",
   name: "Garri Potter, to'plami, Joann Rouling, o'zbek tilida",
   price: 1040,
   images: [
@@ -508,4 +554,18 @@ export const products: Product[] = [
   description: "Garri Potter to'plami, Joann Rouling – bu kitob, Garri Potter seriyasini o'rganish uchun mo'ljallangan.",
   category: "To'plamlar",
 },
+
+{
+  id: "46",
+  name: "Simsiz quloqchinlar Wireless MS-881 A",
+  price: 1040,
+  images: [
+   product4
+  ],
+  description: "Bluetooth versiyasi: V4.1 + EDR chastota diapazoni: 20 Gts dan 20000 Gts gacha uzatish masofasi: 10 metrgacha ",
+  category: "Quloqchinlar",
+},
+
+
+
 ];

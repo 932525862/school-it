@@ -102,13 +102,22 @@ export function CoinInfoBanner() {
             </div>
           </div>
           
-          <Button
-            onClick={() => setShowModal(true)}
-            className="gradient-primary hover:opacity-90 gap-2 shrink-0"
-          >
-            <Info size={18} />
-            <span className="hidden sm:inline">Ma'lumot</span>
-          </Button>
+          <div className="flex gap-2 shrink-0">
+            <Button
+              onClick={() => window.open('https://docs.google.com/spreadsheets/d/1qy5IZlZjlzTyYBQPCjgC_AtCvWeUbtPd84Ug-nxxwSI/edit?gid=1717660846#gid=1717660846', '_blank')}
+              className="gradient-primary hover:opacity-90 gap-2"
+            >
+              <Trophy size={18} />
+              <span className="hidden sm:inline">Retingni ko'rish</span>
+            </Button>
+            <Button
+              onClick={() => setShowModal(true)}
+              className="gradient-primary hover:opacity-90 gap-2"
+            >
+              <Info size={18} />
+              <span className="hidden sm:inline">Ma'lumot</span>
+            </Button>
+          </div>
         </div>
       </div>
 

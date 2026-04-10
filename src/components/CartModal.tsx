@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, type ChangeEvent } from "react";
 import {
   X,
   Minus,
@@ -37,11 +37,13 @@ export function CartModal({
   const [name, setName] = useState("");
   const [phone, setPhone] = useState(""); // +998XXXXXXXXX (13)
   const [user, setUser] = useState(""); // telegram username
+  const [branch, setBranch] = useState("");
+  const [group, setGroup] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   // ✅ Telefonni faqat O‘zbekiston formati bo‘yicha kiritish:
   // +998 + 9 ta raqam = 13 ta belgi
-  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handlePhoneChange = (e: ChangeEvent<HTMLInputElement>) => {
     let v = e.target.value;
 
     // bo‘sh joylarni olib tashlaymiz
@@ -70,7 +72,7 @@ export function CartModal({
   };
 
   // Telegram username ni tozalash: @ bo‘lsa olib tashlaymiz, probel yo‘q
-  const handleTelegramChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleTelegramChange = (e: ChangeEvent<HTMLInputElement>) => {
     let v = e.target.value.trim();
     v = v.replace(/\s+/g, "");
     v = v.replace(/^@+/, "");
@@ -79,7 +81,14 @@ export function CartModal({
 
   const handleSubmitOrder = async () => {
     // ✅ name + phone + telegram majburiy, phone 13 ta belgi bo‘lsin
-    if (!name.trim() || !phone.trim() || !user.trim() || phone.length !== 13) {
+    if (
+      !name.trim() ||
+      !phone.trim() ||
+      !user.trim() ||
+      !branch.trim() ||
+      !group.trim() ||
+      phone.length !== 13
+    ) {
       toast.error("Iltimos, barcha maydonlarni to'ldiring");
       return;
     }
@@ -103,6 +112,8 @@ Yangi buyurtma!
 Mijoz: ${name}
 Telefon: ${phone}
 Telegram: @${user}
+Filial: ${branch}
+Guruh: ${group}
 
 Mahsulotlar:
 ${productsList}
@@ -114,6 +125,8 @@ Jami: ${totalCoins} coin
       name,
       phone,
       telegram: user,
+      branch,
+      group,
       totalCoins,
       items: itemsForSheets,
       productsText: productsList,
@@ -276,6 +289,34 @@ Jami: ${totalCoins} coin
                   value={user}
                   onChange={handleTelegramChange}
                   placeholder="masalan: username"
+                  className="bg-muted/50"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-card-foreground mb-2">
+                  Qaysi filyalimizda o'qisiz
+                </label>
+                <select
+                  value={branch}
+                  onChange={(e) => setBranch(e.target.value)}
+                  className="w-full rounded-xl border border-border bg-muted/50 px-3 py-2 text-sm text-card-foreground outline-none focus:ring-2 focus:ring-primary"
+                >
+                  <option value="">Filiya tanlang</option>
+                  <option value="Yashnabod">Yashnabod</option>
+                  <option value="Yunusobos">Yunusobos</option>
+                  <option value="Qo'yliq">Qo'yliq</option>
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-card-foreground mb-2">
+                  Guruhingizni nomini kiriting
+                </label>
+                <Input
+                  value={group}
+                  onChange={(e) => setGroup(e.target.value)}
+                  placeholder="Guruhingizni nomini kiriting"
                   className="bg-muted/50"
                 />
               </div>
