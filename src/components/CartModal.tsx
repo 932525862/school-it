@@ -306,6 +306,8 @@ Jami: ${totalCoins} coin
                   <option value="Yashnabod">Yashnabod</option>
                   <option value="Yunusobos">Yunusobos</option>
                   <option value="Qo'yliq">Qo'yliq</option>
+                  <option value="Keles1">Keles 1</option>
+                  <option value="Keles2">Keles 2</option>
                 </select>
               </div>
 

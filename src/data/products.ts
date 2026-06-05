@@ -20,51 +20,41 @@ export const categories = [
   "Aksessuarlar",
   "To'plamlar",
   "Telefonlar",
-  
+  "Futbol",
 ];
 
-import product1 from "../astets/photo_2026-02-12_13-45-14.jpg"
 import product2 from "../astets/photo_2026-02-12_13-45-32.jpg"
-import product3 from "../astets/photo_2026-02-12_13-45-36.jpg"
 import product4 from "../astets/photo_2026-02-12_13-45-40.jpg"
-import product5 from "../astets/photo_2026-02-12_16-02-28.jpg"
-import product6 from "../astets/photo_2026-02-12_16-02-31.jpg"
 import product7 from "../astets/ij1.jpg"
 import product8 from "../astets/ij2.jpg"
-
-
 
 export const products: Product[] = [
   // === SMART SOATLAR ===
   {
-    id: "1s",
+    id: "1",
     name: "Smart Watch box",
     price: 660,
     images: [
-      
       product2,
       product7,
       product8,
-      
     ],
-    description: " 8 xil rangli band  , 4 ta  remishok va tetrs  mavjud",
+    description: "8 xil rangli band, 4 ta remishok va tetrs mavjud.",
     category: "Smart soatlar",
   },
-  
   {
-    id: "1",
+    id: "2",
     name: "Smart Watch X8 Pro",
     price: 250,
     images: [
       "https://images.uzum.uz/d535kv3s2tab83s7av8g/original.jpg",
       "https://images.uzum.uz/d535kurs2tab83s7av80/original.jpg",
-      
     ],
     description: "Oddiy smart soat, o'quvchilar uchun qulay. Soat, xabarlar, qadamlar hisoblagich.",
     category: "Smart soatlar",
   },
   {
-    id: "2",
+    id: "3",
     name: "Sport Smart Watch M5",
     price: 350,
     images: [
@@ -75,7 +65,7 @@ export const products: Product[] = [
     category: "Smart soatlar",
   },
   {
-    id: "3",
+    id: "4",
     name: "Bluetooth Smart Watch T500",
     price: 400,
     images: [
@@ -86,20 +76,18 @@ export const products: Product[] = [
     category: "Smart soatlar",
   },
   {
-    id: "4",
+    id: "5",
     name: "Kids Smart Watch Y1",
-    price: 200,
+    price: 800,
     images: [
-      "https://olcha.uz/image/original/products/2020-07-29/xiaomi-mi-band-5-black-xmsh10hm-global-version-14931-0.jpeg",
-      "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400",
-      
-      "https://olcha.uz/image/original/products/2020-07-29/xiaomi-mi-band-5-black-xmsh10hm-global-version-14931-1.jpeg"
+      "https://cdn.mediapark.uz/imgs/32f831a8-19b8-4e44-b598-3ac4ff780e69_1.webp",
+      "https://olcha.uz/image/original/products/2020-07-29/xiaomi-mi-band-5-black-xmsh10hm-global-version-14931-1.jpeg",
     ],
     description: "O'smirlar uchun smart soat, GPS tracker, SOS tugmasi.",
     category: "Smart soatlar",
   },
   {
-    id: "5",
+    id: "6",
     name: "Smart Band M7 Pro",
     price: 3150,
     images: [
@@ -112,7 +100,7 @@ export const products: Product[] = [
 
   // === QULOQCHINLAR ===
   {
-    id: "6",
+    id: "7",
     name: "TWS Bluetooth Earbuds i12",
     price: 500,
     images: [
@@ -123,40 +111,39 @@ export const products: Product[] = [
     category: "Quloqchinlar",
   },
   {
-  id: "7",
-  name: "Smartwatch",
-  price: 500,
-  images: [
-   "https://images.uzum.uz/ci89ig75d7kom1ti6c10/original.jpg"
-  ],
-  description: "Bluetooth versiyasi: V4.1 + EDR chastota diapazoni: 20 Gts dan 20000 Gts gacha uzatish masofasi: 10 metrgacha ",
-  category: "Quloqchinlar",
-},
-  {
     id: "8",
+    name: "Smartwatch",
+    price: 500,
+    images: [
+      "https://images.uzum.uz/ci89ig75d7kom1ti6c10/original.jpg",
+    ],
+    description: "Bluetooth versiyasi: V4.1 + EDR chastota diapazoni: 20 Gts dan 20000 Gts gacha uzatish masofasi: 10 metrgacha.",
+    category: "Quloqchinlar",
+  },
+  {
+    id: "9",
     name: "Gaming Earbuds G20",
     price: 1370,
     images: [
       "https://images.uzum.uz/ct9fmcui4n3ehka2k8f0/original.jpg",
-      "https://images.uzum.uz/ct9fmcviub3d1eokoitg/original.jpg"
+      "https://images.uzum.uz/ct9fmcviub3d1eokoitg/original.jpg",
     ],
     description: "Low latency gaming quloqchin. O'yinlar uchun tez ulanish.",
     category: "Quloqchinlar",
   },
   {
-    id: "8s",
+    id: "10",
     name: "Simsiz quloqchinlar TWS i18 Pods",
     price: 218,
     images: [
       "https://images.uzum.uz/ch0fpivhj8j9g69dv1rg/original.jpg",
     ],
     description: "i18-TWS simsiz quloqchinlari ixcham.",
-    category: "AirPods",
+    category: "Quloqchinlar",
   },
-
   {
-    id: "13",
-    name: " Sennheiser PC 3 CHAT",
+    id: "11",
+    name: "Sennheiser PC 3 CHAT",
     price: 870,
     images: [
       "https://asset.openshop.uz/storage/uploads/products/photos/202402/OQxcdolawnHZdQCfQwj58ABWtppI8k2hnSNsvmxk.jpg",
@@ -166,17 +153,18 @@ export const products: Product[] = [
     category: "Quloqchinlar",
   },
   {
-    id: "14",
-    name: "Simli Naushnik HF-230",
-    price: 500,
+    id: "12",
+    name: "Simsiz Bluetooth quloqchinlar P9",
+    price: 200,
     images: [
-      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400",
+      "https://images.uzum.uz/d4h9395sp2tr82i66r60/original.jpg",
+      "https://images.uzum.uz/d4h93vej76ooegrmjs30/original.jpg",
     ],
-    description: "Mikrofon bilan simli naushnik. Dars va qo'ng'iroqlar uchun.",
+    description: "Simsiz Bluetooth quloqchinlar P9 — mikrofonli, to‘liq o‘lchamli, kuchli bass, uzoq ishlash.",
     category: "Quloqchinlar",
   },
   {
-    id: "15",
+    id: "13",
     name: "Noise Cancelling Earbuds NC300",
     price: 600,
     images: [
@@ -187,89 +175,97 @@ export const products: Product[] = [
     category: "Quloqchinlar",
   },
   {
-    id: "16",
+    id: "14",
     name: "Sport Naushnik S880",
     price: 170,
     images: [
       "https://images.unsplash.com/photo-1608156639585-b3a032ef9689?w=400",
     ],
-    description: "Quloqdan ushmaydigan sport naushnik. Yugurish va mashq uchun.",
+    description: "Quloqdan tushmaydigan sport naushnik. Yugurish va mashq uchun.",
+    category: "Quloqchinlar",
+  },
+  {
+    id: "15",
+    name: "Simsiz quloqchinlar Wireless MS-881 A",
+    price: 1040,
+    images: [
+      product4,
+    ],
+    description: "Bluetooth versiyasi: V4.1 + EDR chastota diapazoni: 20 Gts dan 20000 Gts gacha uzatish masofasi: 10 metrgacha.",
     category: "Quloqchinlar",
   },
 
-  //==fud===
-  
-
   // === NOUTBUKLAR ===
   {
-    id: "17",
+    id: "16",
     name: "MacBook Air 13inch",
     price: 40000,
     images: [
       "https://cdn.asaxiy.uz/asaxiy-content/product/items/desktop/c14f7a753888287112058264fa40b72d2025071215424298304F7KJjzbtra.webp",
       "https://cdn.asaxiy.uz/asaxiy-content/product/items/desktop/737e25c07c3dfe29758e947257946a902025071215424264335rMqvr8lNWL.webp",
     ],
-    description: "Apple MacBook Air 13 dyuymli noutbuk: 10 yadroli protsessor va 8 yadroli grafik protsessorga ega Apple M4 protsessori, 16 GB operativ xotira, 256 GB SSD ",
+    description: "Apple MacBook Air 13 dyuymli noutbuk: Apple M4 protsessori, 16 GB operativ xotira, 256 GB SSD.",
     category: "Noutbuklar",
   },
   {
-    id: "18",
-    name: "Noutbuk HP AMD ",
+    id: "17",
+    name: "Noutbuk HP AMD",
     price: 4500,
     images: [
       "https://images.uzum.uz/d4rrl33tqdhgicat60rg/original.jpg",
       "https://images.uzum.uz/d2eq5mfiub3brtuame1g/original.jpg",
     ],
-    description: "Noutbuk HP AMD Ryzen 5-7520U, DDR5 8GB, SSD 512GB, Windows 11 Pro, 15.6 IPS, ",
+    description: "Noutbuk HP AMD Ryzen 5-7520U, DDR5 8GB, SSD 512GB, Windows 11 Pro, 15.6 IPS.",
     category: "Noutbuklar",
   },
+
+  // === TELEFONLAR ===
   {
-    id: "19",
-    name: " Apple iPhone 15,",
+    id: "18",
+    name: "Apple iPhone 15",
     price: 31700,
     images: [
       "https://images.uzum.uz/csoa6834nkdp9akeius0/original.jpg",
       "https://images.uzum.uz/csq4hpbvgbkpg1nlvmqg/original.jpg",
     ],
-    description: "Smartfon Apple iPhone 15, 128 GB, SIM+DualSIM, g'ilof sovg'a",
+    description: "Smartfon Apple iPhone 15, 128 GB, SIM + DualSIM, g'ilof sovg'a.",
     category: "Telefonlar",
   },
-
- 
   {
-    id: "20",
-    name: "Smartfon Infinix Note 50 Pro,",
+    id: "19",
+    name: "Smartfon Infinix Note 50 Pro",
     price: 3000,
     images: [
       "https://images.uzum.uz/cvub6plpb7fbmqmns8b0/original.jpg",
     ],
-    description: "Smartfon Infinix Note 50 Pro, 128 GB, SIM+DualSIM, g'ilof sovg'a",
+    description: "Smartfon Infinix Note 50 Pro, 128 GB, SIM + DualSIM, g'ilof sovg'a.",
     category: "Telefonlar",
   },
   {
-    id: "21",
+    id: "20",
     name: "Smartfon Xiaomi Poco C71",
     price: 4300,
     images: [
       "https://images.uzum.uz/d51rn2btqdhua1ut7tqg/original.jpg",
     ],
-    description: "Smartfon Xiaomi Poco C71, 4+128GB, 32 Mp ikkita kamera, 6,88 displey",
+    description: "Smartfon Xiaomi Poco C71, 4+128 GB, 32 Mp ikkita kamera, 6.88 displey.",
     category: "Telefonlar",
   },
-  //sssss
+
+  // === KOMPYUTERLAR ===
   {
-    id: "22",
-    name: "Monoblok Lenovo V50a-24IMB ",
+    id: "21",
+    name: "Monoblok Lenovo V50a-24IMB",
     price: 16000,
     images: [
       "https://cdn.mediapark.uz/imgs/0ff4640e-d985-4f97-87e4-2956ec55db4a_Artboard-1-(6).webp",
       "https://cdn.mediapark.uz/imgs/83d01cad-dc89-4759-88b4-1b80b6bc8403_Artboard-2.webp",
     ],
-    description: "Monoblok  Lenovo V50a-24IMB AIO Intel Core i3-10100T , DDR4 4GB ,  SSD 256GB , 23,8 FHD , Integrated Intel UHD",
+    description: "Monoblok Lenovo V50a-24IMB AIO Intel Core i3-10100T, DDR4 4GB, SSD 256GB, 23.8 FHD.",
     category: "Kompyuterlar",
   },
   {
-    id: "23",
+    id: "22",
     name: "Klaviatura + Sichqoncha Komplekti",
     price: 200,
     images: [
@@ -291,30 +287,9 @@ export const products: Product[] = [
   //   description: "Android planshet 10.1'. O'qish va video ko'rish uchun ideal.",
   //   category: "Planshetlar",
   // },
-  // {
-  //   id: "20",
-  //   name: "O'quvchi Plansheti 8'",
-  //   price: 800,
-  //   images: [
-  //     "https://images.unsplash.com/photo-1561154464-82e9aab32f4d?w=400",
-  //   ],
-  //   description: "8 dyuymli engil planshet. Kitob o'qish va dars uchun.",
-  //   category: "Planshetlar",
-  // },
-  // {
-  //   id: "21",
-  //   name: "Stylus Planshet 10' (Dars uchun)",
-  //   price: 1800,
-  //   images: [
-  //     "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?w=400",
-  //     "https://images.unsplash.com/photo-1632882765546-1ee75f53becb?w=400",
-  //   ],
-  //   description: "Stylus qalam bilan planshet. Darsda yozish va chizish uchun.",
-  //   category: "Planshetlar",
-  // },
   {
-    id: "24",
-    name: "Aqliy Planshet 17 Max ",
+    id: "23",
+    name: "Aqliy Planshet 17 Max",
     price: 3400,
     images: [
       "https://images.uzum.uz/d63palk3obpn7570dldg/original.jpg",
@@ -322,21 +297,10 @@ export const products: Product[] = [
     description: "Aqliy Planshet 17 Max Smart Tablet Android 15, 5G, UZIMEI, klaviatura, sichqoncha, g‘ilof.",
     category: "Planshetlar",
   },
-  // {
-  //   id: "23",
-  //   name: "iPad 10.2' Wi-Fi",
-  //   price: 3500,
-  //   images: [
-  //     "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400",
-  //     "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?w=400",
-  //   ],
-  //   description: "Apple iPad. O'quv va ijod uchun eng yaxshi tanlov.",
-  //   category: "Planshetlar",
-  // },
 
   // === KITOBLAR ===
   {
-    id: "25",
+    id: "24",
     name: "Mukammal dasturlash 1. HTML va CSS",
     price: 320,
     images: [
@@ -346,7 +310,7 @@ export const products: Product[] = [
     category: "Kitoblar",
   },
   {
-    id: "26",
+    id: "25",
     name: "JavaScript",
     price: 300,
     images: [
@@ -356,70 +320,159 @@ export const products: Product[] = [
     category: "Kitoblar",
   },
   {
-    id: "27",
-    name: "Futbol butsilar,",
-    price: 670,
+    id: "26",
+    name: "Falaq Nashr kitoblari",
+    price: 240,
     images: [
-
-      "https://images.uzum.uz/d291a4viub3br32163k0/original.jpg",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400",
     ],
-    description: "Futbol butsilar, erkaklar, o'smirlar uchun, 36-45 o'lcham",
-    
+    description: "O'quvchilar uchun Falaq Nashrning mashhur kitoblari to'plami.",
+    category: "Kitoblar",
+  },
+  {
+    id: "27",
+    name: "Saodat Asri kitoblari",
+    price: 1220,
+    images: [
+      "https://images.uzum.uz/d5uafp3q345o6s40krlg/original.jpg",
+    ],
+    description: "Saodat Asri nashriyotidan kitoblar, bilim va motivatsiya uchun.",
+    category: "Kitoblar",
   },
   {
     id: "28",
-    name: "Futbol butsilar erkaklar uchun",
-    price: 500,
+    name: "Afg'on shamoli, 1-kitob",
+    price: 190,
     images: [
-      "https://images.uzum.uz/d188rvi7s4fup34aa1vg/original.jpg",
+      "https://images.uzum.uz/d39nb95r1spqpknja2kg/original.jpg",
     ],
-    description: "Futbol butsilar erkaklar uchun, o'lcham 40-45",
-
+    description: "Isokzhon Nishonov - Afg'on shamoli, 1-kitob.",
+    category: "Kitoblar",
   },
   {
     id: "29",
-    name: "Forma, futbol formasi.",
-    price: 400,
+    name: "Binafsha shulasi",
+    price: 360,
     images: [
-      "https://images.uzum.uz/d1rlehnnrko24u2h3msg/original.jpg",
+      "https://images.uzum.uz/d61d72vqkmamvfqsn3lg/original.jpg",
     ],
-    description: "Futbol formasi, erkaklar va o'smirlar uchun, turli o'lchamlar.",
-    category: "Futbol",
+    description: "Binafsha shulasi - Usoma Muslim. Binafsha shu'lasi.",
+    category: "Kitoblar",
   },
   {
     id: "30",
-    name: "Futbol retro-forma",
-    price: 410,
+    name: "Abdulla Qodiriy - O‘tkan kunlar (roman)",
+    price: 170,
     images: [
-      "https://images.uzum.uz/d5p6gu3q345softls8r0/original.jpg",
+      "https://images.uzum.uz/d5fm48btqdhjp1vekuv0/original.jpg",
     ],
-    description: "Futbol retro-forma - \"Barcelona 2015 , Sport kiyim\"",
-    category: "Futbol",
+    description: "Abdulla Qodiriy - O‘tkan kunlar (roman).",
+    category: "Kitoblar",
   },
 
   // === AKSESSUARLAR ===
   {
     id: "31",
-    name: "Futbol to'pi Molten",
-    price: 430,
+    name: "Voleybol to'pi",
+    price: 420,
     images: [
-      "https://images.uzum.uz/d5vi6n6f4hvsl3r26nkg/original.jpg",
+      "https://images.uzum.uz/d7je5k21146ojv9gc0qg/original.jpg",
     ],
-    description: "Futbol to'pi Molten, AFC F5A5000-AC, o'lcham 5",
+    description: "Yuqori sifatli voleybol to'pi, o'quvchilar va sport jamoalari uchun.",
     category: "Aksessuarlar",
   },
   {
     id: "32",
-    name: "Powerbank 10000mAh",
-    price: 434,
+    name: "Kino biletlari to'plami",
+    price: 120,
     images: [
-      "https://images.uzum.uz/d5sbql7iub393sddpemg/original.jpg",
+      "https://images.unsplash.com/photo-1517602302552-471fe67acf66?w=400",
     ],
-    description: "Portativ quvvatlash qurilmasi. 10000mAh, 2ta USB port.",
+    description: "Kino seansi uchun 2 ta chipta. Do'stlar bilan dam olish uchun ideal.",
     category: "Aksessuarlar",
   },
- {
+  {
     id: "33",
+    name: "Bloknotlar",
+    price: 490,
+    images: [
+      "https://images.uzum.uz/cvmflnk7fd1p445qpr2g/original.jpg",
+    ],
+    description: "5 tasi 1 da ruchkali sovg‘a bloknot to'plami, erkaklar uchun.",
+    category: "Aksessuarlar",
+  },
+  {
+    id: "34",
+    name: "Bloknotlar qizlar uchun",
+    price: 290,
+    images: [
+      "https://images.uzum.uz/d8e2qbjsv8vo2t0iije0/original.jpg",
+    ],
+    description: "Xarajatlaringizni tartib bilan boshqaring. Minimalistik dizaynli budjet daftari.",
+    category: "Aksessuarlar",
+  },
+  {
+    id: "35",
+    name: "Kitob uchun podstavka (stend)",
+    price: 200,
+    images: [
+      "https://images.uzum.uz/cq400pr5qt1gj8de7ja0/original.jpg",
+    ],
+    description: "Kitobni qulay o'qish uchun metall stend.",
+    category: "Aksessuarlar",
+  },
+  {
+    id: "36",
+    name: "Telefon g'ilofi (chexol)",
+    price: 240,
+    images: [
+      "https://images.uzum.uz/d4v8kujtqdhua1usbvsg/original.jpg",
+    ],
+    description: "Smartfon uchun himoyalovchi g'ilof. Kundalik foydalanish uchun ideal.",
+    category: "Aksessuarlar",
+  },
+  {
+    id: "37",
+    name: "Qo'l brasletlari",
+    price: 130,
+    images: [
+      "https://images.uzum.uz/d0er6p0n274j5sclvqr0/original.jpg",
+    ],
+    description: "Ayollar bilakuzugi, qo'lga taqiladigan bilaguzuk, o'lchamsiz va har qanday kiyimga mos.",
+    category: "Aksessuarlar",
+  },
+  {
+    id: "38",
+    name: "Stainless Steel Cartier",
+    price: 430,
+    images: [
+      "https://images.uzum.uz/d79bst21146ojv9c6ts0/original.jpg",
+    ],
+    description: "Ayollar bilakuzugi, zamonaviy dizayn va qulay o'lcham.",
+    category: "Aksessuarlar",
+  },
+  {
+    id: "39",
+    name: "Qizlar uchun sumkalar",
+    price: 550,
+    images: [
+      "https://images.uzum.uz/d6msp1a1146th72to1u0/original.jpg",
+    ],
+    description: "Ayollar uchun yelka sumka, kross-bodi va klassik model.",
+    category: "Aksessuarlar",
+  },
+  {
+    id: "40",
+    name: "Barsetka",
+    price: 430,
+    images: [
+      "https://images.uzum.uz/d5gjl1rs2tab83sass60/original.jpg",
+    ],
+    description: "Erkaklar uchun barsetka. Hujjat va telefon saqlash uchun.",
+    category: "Aksessuarlar",
+  },
+  {
+    id: "41",
     name: "Laptop Sumkasi 15.6'",
     price: 270,
     images: [
@@ -429,9 +482,8 @@ export const products: Product[] = [
     description: "Himoyalangan noutbuk biznes sumkasi.",
     category: "Aksessuarlar",
   },
-
   {
-    id: "34",
+    id: "42",
     name: "Laptop Stendi Aluminium",
     price: 178,
     images: [
@@ -440,65 +492,154 @@ export const products: Product[] = [
     description: "Noutbuk va planshet ushlagichi, alyuminiy.",
     category: "Aksessuarlar",
   },
-
- {
-    id: "35",
+  {
+    id: "43",
     name: "Mouse Pad XXL 80x30",
     price: 200,
     images: [
       "https://images.uzum.uz/d5ofiurq345softlj3jg/original.jpg",
     ],
-    description: "Katta o‘lchamli geymer kovrik 40×90 sm – klaviatura va sichqoncha uchun, sirpanmas.",
+    description: "Katta o'lchamli geymer kovrik 40×90 sm – klaviatura va sichqoncha uchun.",
     category: "Aksessuarlar",
   },
-
-{
-    id: "36",
+  {
+    id: "44",
     name: "USB Hub 4-port 3.0",
     price: 124,
     images: [
       "https://images.uzum.uz/d29dgs34eu2ok7138rng/original.jpg",
     ],
-    description: "USB Hub 4 ta portli USB 3.0 razvetvitel – 5 Gbit/s tezlik, kompyuter uchun",
+    description: "USB Hub 4 ta portli USB 3.0 razvetvitel – 5 Gbit/s tezlik.",
     category: "Aksessuarlar",
   },
-
   {
-    id: "37",
+    id: "45",
     name: "Kabel Tartiblagich (Organizer)",
     price: 150,
     images: [
       "https://images.uzum.uz/cf631tov1htd23al8eg0/original.jpg",
-      "https://images.uzum.uz/cf63340l08k0o9qi66f0/original.jpg"
+      "https://images.uzum.uz/cf63340l08k0o9qi66f0/original.jpg",
     ],
     description: "Kabellarni tartibga keltiruvchi. Ish stolini toza saqlang.",
     category: "Aksessuarlar",
   },
+  {
+    id: "46",
+    name: "Powerbank 10000mAh",
+    price: 434,
+    images: [
+      "https://images.uzum.uz/d5sbql7iub393sddpemg/original.jpg",
+    ],
+    description: "Portativ quvvatlash qurilmasi. 10000mAh, 2 ta USB port.",
+    category: "Aksessuarlar",
+  },
+  {
+    id: "47",
+    name: "Futbol to'pi Molten",
+    price: 430,
+    images: [
+      "https://images.uzum.uz/d5vi6n6f4hvsl3r26nkg/original.jpg",
+    ],
+    description: "Futbol to'pi Molten, AFC F5A5000-AC, o'lcham 5.",
+    category: "Futbol",
+  },
+  {
+    id: "48",
+    name: "Dayson",
+    price: 500,
+    images: [
+      "https://images.uzum.uz/d6c0537qkmal07p15ntg/original.jpg",
+    ],
+    description: "Dayson soch quritgich-stayler 5 tasi 1 da, barcha soch turlari uchun.",
+    category: "Aksessuarlar",
+  },
 
   // === TO'PLAMLAR ===
-  // {
-  //   id: "37",
-  //   name: "Smart Watch + Earbuds Set",
-  //   price: 380,
-  //   images: [
-  //     "https://images.unsplash.com/photo-1546868871-af0de0ae72be?w=400",
-  //     "https://images.unsplash.com/photo-1590658268037-6bf12f032f55?w=400",
-  //   ],
-  //   description: "Smart soat va Bluetooth quloqchin to'plami. Arzon narxda!",
-  //   category: "To'plamlar",
-  // },
-  // {
-  //   id: "38",
-  //   name: "Telefon Aksessuarlar To'plami",
-  //   price: 250,
-  //   images: [
-  //     "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400",
-  //   ],
-  //   description: "Quloqchin, powerbank, kabel — barchasi bitta paketda.",
-  //   category: "To'plamlar",
-  // },
   {
-    id: "41",
+    id: "49",
+    name: "Kitoblar uchun magnit xatcho'plar",
+    price: 80,
+    images: [
+      "https://images.uzum.uz/ck88vekjvf2h3ge4nefg/original.jpg",
+      "https://images.uzum.uz/ck88vejk9fq1var6fusg/original.jpg",
+    ],
+    description: "Kitoblar uchun magnit xatcho'plar, sahifalarni qulay belgilash uchun.",
+    category: "To'plamlar",
+  },
+  {
+    id: "491",
+    name: "Stol tennisi raketkasi",
+    price: 280,
+    images: [
+      "https://images.uzum.uz/d6epqoi1146jevjqgcd0/original.jpg",
+      
+    ],
+    description: "Stol tennisi raketkasi, o'yin uchun qulay.",
+    category: "To'plamlar",
+  },
+    {
+    id: "492",
+    name: "kartxolder-RF ID",
+    price: 180,
+    images: [
+      "https://images.uzum.uz/d68deefqkmalqfnbm2d0/original.jpg",
+      
+    ],
+    description: "Bank kartalari, o‘sha pasportlar va ID kartalar uchun metall kartxolder-RF ID himoyasi",
+    category: "To'plamlar",
+  },
+  {
+    id: "50",
+    name: "Matnlarni belgilash uchun markerlar to'plami",
+    price: 180,
+    images: [
+      "https://images.uzum.uz/d65bk8dsp2tk1m7hf49g/original.jpg",
+    ],
+    description: "Markerlar to'plami. Talaba va o'qituvchilar uchun ideal.",
+    category: "To'plamlar",
+  },
+  {
+    id: "51",
+    name: "10 ta rangli ruchka",
+    price: 280,
+    images: [
+      "https://images.uzum.uz/csd64cdpq3ghb2qkqf1g/original.jpg",
+    ],
+    description: "Rangli ruchkalar to'plami. Yozuv va kreativ ishlarda qulay.",
+    category: "To'plamlar",
+  },
+  {
+    id: "52",
+    name: "Kanselyariya mollari, ruchka",
+    price: 300,
+    images: [
+      "https://images.uzum.uz/d6fd7q0s9rfd9u93ra80/original.jpg",
+    ],
+    description: "Kanselyariya to'plami: ruchka va yozish uchun kerakli aksessuarlar.",
+    category: "To'plamlar",
+  },
+  {
+    id: "53",
+    name: "Bloknot Van Gog",
+    price: 390,
+    images: [
+      "https://images.uzum.uz/cnmpc5lbl7rtgkb9neig/original.jpg",
+    ],
+    description: "Bloknot Van Gog dizayni bilan. San'at va yozuvni birlashtiradi.",
+    category: "To'plamlar",
+  },
+  {
+    id: "54",
+    name: "Telefon ushlagich",
+    price: 180,
+    images: [
+      "https://images.uzum.uz/d7timj3sv8vo2t0ce130/original.jpg",
+    ],
+    description: "Telefon va planshet uchun 360° aylanuvchi metall ushlagich.",
+    category: "To'plamlar",
+  },
+  {
+    id: "55",
     name: "Laptop Full Set (Sumka+Mouse+Pad)",
     price: 300,
     images: [
@@ -509,63 +650,43 @@ export const products: Product[] = [
     category: "To'plamlar",
   },
   {
-  id: "42",
-  name: "AIRMESH G2 BLACK",
-  price: 2330,
-  images: [
-    "https://images.uzum.uz/d39p4sq1146g78h3e99g/original.jpg",
-    
-  ],
-  description: "AIRMESH G2 BLACK – bu zamonaviy va yengil qurilma bo‘lib, foydalanuvchiga qulaylik va ishonchlilikni taqdim etadi.",
-  category: "To'plamlar",
-},
-{
-  id: "43",
-  name: "Noutbuk sovutgichi NCP-063",
-  price: 445,
-  images: [
-    "https://images.uzum.uz/d1vqf1t2llnbjcofdddg/original.jpg",
-    
-  ],
-  description: "Noutbuk sovutgichi NCP-063 – bu zamonaviy va yengil qurilma bo‘lib, foydalanuvchiga qulaylik va ishonchlilikni taqdim etadi.",
-  category: "To'plamlar",
-},
-
-{
-  id: "44",
-  name: "Izuchayem React. 2-ye izdaniye, Chinnatambi Kirupa",
-  price: 1440,
-  images: [
-    "https://images.uzum.uz/cgrrr3ng49devoadogeg/original.jpg",
-    
-  ],
-  description: "Izuchayem React. 2-ye izdaniye, Chinnatambi Kirupa – bu kitob, React dasturlash tilini o'rganish uchun mo'ljallangan.",
-  category: "To'plamlar",
-},
-
-{
-  id: "45",
-  name: "Garri Potter, to'plami, Joann Rouling, o'zbek tilida",
-  price: 1040,
-  images: [
-    "https://images.uzum.uz/clf6mjt6sfhvbd1ik13g/original.jpg",
-    
-  ],
-  description: "Garri Potter to'plami, Joann Rouling – bu kitob, Garri Potter seriyasini o'rganish uchun mo'ljallangan.",
-  category: "To'plamlar",
-},
-
-{
-  id: "46",
-  name: "Simsiz quloqchinlar Wireless MS-881 A",
-  price: 1040,
-  images: [
-   product4
-  ],
-  description: "Bluetooth versiyasi: V4.1 + EDR chastota diapazoni: 20 Gts dan 20000 Gts gacha uzatish masofasi: 10 metrgacha ",
-  category: "Quloqchinlar",
-},
-
-
-
+    id: "56",
+    name: "AIRMESH G2 BLACK",
+    price: 2330,
+    images: [
+      "https://images.uzum.uz/d39p4sq1146g78h3e99g/original.jpg",
+    ],
+    description: "AIRMESH G2 BLACK – zamonaviy va yengil qurilma, qulaylik va ishonchlilik bilan.",
+    category: "To'plamlar",
+  },
+  {
+    id: "57",
+    name: "Noutbuk sovutgichi NCP-063",
+    price: 445,
+    images: [
+      "https://images.uzum.uz/d1vqf1t2llnbjcofdddg/original.jpg",
+    ],
+    description: "Noutbuk sovutgichi NCP-063. Zamonaviy va yengil, samarali sovutish.",
+    category: "To'plamlar",
+  },
+  {
+    id: "58",
+    name: "Izuchayem React. 2-ye izdaniye, Chinnatambi Kirupa",
+    price: 1440,
+    images: [
+      "https://images.uzum.uz/cgrrr3ng49devoadogeg/original.jpg",
+    ],
+    description: "Izuchayem React. 2-ye izdaniye, Chinnatambi Kirupa – React dasturlashni o'rganish uchun.",
+    category: "To'plamlar",
+  },
+  {
+    id: "59",
+    name: "Garri Potter, to'plami, Joann Rouling, o'zbek tilida",
+    price: 1040,
+    images: [
+      "https://images.uzum.uz/clf6mjt6sfhvbd1ik13g/original.jpg",
+    ],
+    description: "Garri Potter to'plami, Joann Rouling – kitoblar seriyasini o'zbek tilida o'rganish uchun.",
+    category: "To'plamlar",
+  },
 ];
