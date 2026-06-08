@@ -1,0 +1,66 @@
+# Product prices list (name — coin price)
+
+1. (id: 1) Smart Watch box — 660
+2. (id: 2) Smart Watch X8 Pro — 250
+3. (id: 3) Sport Smart Watch M5 — 350
+4. (id: 4) Bluetooth Smart Watch T500 — 400
+5. (id: 5) Kids Smart Watch Y1 — 800
+6. (id: 6) Smart Band M7 Pro — 3150
+7. (id: 7) TWS Bluetooth Earbuds i12 — 500
+8. (id: 8) Smartwatch — 500
+9. (id: 9) Gaming Earbuds G20 — 1370
+10. (id: 10) Simsiz quloqchinlar TWS i18 Pods — 218
+11. (id: 11) Sennheiser PC 3 CHAT — 870
+12. (id: 12) Simsiz Bluetooth quloqchinlar P9 — 200
+13. (id: 13) Noise Cancelling Earbuds NC300 — 600
+14. (id: 14) Sport Naushnik S880 — 170
+15. (id: 15) Simsiz quloqchinlar Wireless MS-881 A — 1040
+16. (id: 16) MacBook Air 13inch — 40000
+17. (id: 17) Noutbuk HP AMD — 4500
+18. (id: 18) Apple iPhone 15 — 31700
+19. (id: 19) Smartfon Infinix Note 50 Pro — 3000
+20. (id: 20) Smartfon Xiaomi Poco C71 — 4300
+21. (id: 21) Monoblok Lenovo V50a-24IMB — 16000
+22. (id: 22) Klaviatura + Sichqoncha Komplekti — 200
+23. (id: 23) Aqliy Planshet 17 Max — 3400
+24. (id: 24) Mukammal dasturlash 1. HTML va CSS — 320
+25. (id: 25) JavaScript — 300
+26. (id: 26) Falaq Nashr kitoblari — 240
+27. (id: 27) Saodat Asri kitoblari — 1220
+28. (id: 28) Afg'on shamoli, 1-kitob — 190
+29. (id: 29) Binafsha shulasi — 360
+30. (id: 30) Abdulla Qodiriy - O‘tkan kunlar (roman) — 170
+31. (id: 31) Voleybol to'pi — 420
+32. (id: 32) Kino biletlari to'plami — 120
+33. (id: 33) Bloknotlar — 490
+34. (id: 34) Bloknotlar qizlar uchun — 290
+35. (id: 35) Kitob uchun podstavka (stend) — 200
+36. (id: 36) Telefon g'ilofi (chexol) — 240
+37. (id: 37) Qo'l brasletlari — 130
+38. (id: 38) Stainless Steel Cartier — 430
+39. (id: 39) Qizlar uchun sumkalar — 550
+40. (id: 40) Barsetka — 430
+41. (id: 41) Laptop Sumkasi 15.6' — 270
+42. (id: 42) Laptop Stendi Aluminium — 178
+43. (id: 43) Mouse Pad XXL 80x30 — 200
+44. (id: 44) USB Hub 4-port 3.0 — 124
+45. (id: 45) Kabel Tartiblagich (Organizer) — 150
+46. (id: 46) Powerbank 10000mAh — 434
+47. (id: 47) Futbol to'pi Molten — 430
+48. (id: 48) Dayson — 500
+49. (id: 49) Kitoblar uchun magnit xatcho'plar — 80
+50. (id: 491) Stol tennisi raketkasi — 280
+51. (id: 492) kartxolder-RF ID — 180
+52. (id: 50) Matnlarni belgilash uchun markerlar to'plami — 180
+53. (id: 51) 10 ta rangli ruchka — 280
+54. (id: 52) Kanselyariya mollari, ruchka — 300
+55. (id: 53) Bloknot Van Gog — 390
+56. (id: 54) Telefon ushlagich — 180
+57. (id: 55) Laptop Full Set (Sumka+Mouse+Pad) — 300
+58. (id: 56) AIRMESH G2 BLACK — 2330
+59. (id: 57) Noutbuk sovutgichi NCP-063 — 445
+60. (id: 58) Izuchayem React. 2-ye izdaniye, Chinnatambi Kirupa — 1440
+61. (id: 59) Garri Potter, to'plami, Joann Rouling, o'zbek tilida — 1040
+
+---
+Generated from `src/data/products.ts` on 2026-06-08.
