@@ -69,17 +69,7 @@ export const products: Product[] = [
     description: "Qadam, yurak urishi, kaloriya hisoblagich. Sport uchun ideal.",
     category: "Smart soatlar",
   },
-  {
-    id: "4",
-    name: "Bluetooth Smart Watch T500",
-    price: 400,
-    images: [
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
-      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=400",
-    ],
-    description: "Telefon bilan bog'lanadi, qo'ng'iroqlarni qabul qilish, musiqa boshqarish.",
-    category: "Smart soatlar",
-  },
+ 
   {
     id: "5",
     name: "Kids Smart Watch Y1",
@@ -119,10 +109,10 @@ export const products: Product[] = [
   },
   {
     id: "8",
-    name: "Smartwatch",
+    name: "P9",
     price: 500,
     images: [
-      "https://images.uzum.uz/ci89ig75d7kom1ti6c10/original.jpg"
+      "https://images.uzum.uz/d4k87g6j76oneqan7t2g/t_product_540_high.jpg"
     ],
     description: "Bluetooth versiyasi: V4.1 + EDR chastota diapazoni: 20 Gts dan 20000 Gts gacha uzatish masofasi: 10 metrgacha ",
     category: "Quloqchinlar",

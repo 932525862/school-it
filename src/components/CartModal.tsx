@@ -308,6 +308,9 @@ Jami: ${totalCoins} coin
                   <option value="Qo'yliq">Qo'yliq</option>
                   <option value="Keles1">Keles 1</option>
                   <option value="Keles2">Keles 2</option>
+                  <option value="Namangan (Sardoba)">Namangan (Sardoba)</option>
+                  <option value="Namangan (Do'stlik)">Namangan (Do'stlik)</option>
+                  <option value="Namangan (Mingbuloq)">Namangan (Mingbuloq)</option>
                 </select>
               </div>
 
