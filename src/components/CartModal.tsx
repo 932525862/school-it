@@ -302,7 +302,7 @@ Jami: ${totalCoins} coin
                   onChange={(e) => setBranch(e.target.value)}
                   className="w-full rounded-xl border border-border bg-muted/50 px-3 py-2 text-sm text-card-foreground outline-none focus:ring-2 focus:ring-primary"
                 >
-                  <option value="">Filiya tanlang</option>
+                  <option value="">Filial tanlang</option>
                   <option value="Yashnabod">Yashnabod</option>
                   <option value="Yunusobos">Yunusobos</option>
                   <option value="Qo'yliq">Qo'yliq</option>

@@ -69,7 +69,16 @@ export const products: Product[] = [
     description: "Qadam, yurak urishi, kaloriya hisoblagich. Sport uchun ideal.",
     category: "Smart soatlar",
   },
- 
+ {
+    id: "4",
+    name: "Бинафша шуласи 2 ",
+    price: 450,
+    images: [
+      "https://images.uzum.uz/d8l7gti1146tv076rd0g/t_product_540_high.jpg"
+    ],
+    description: " Sirlar yanada chuqurlashadi, voqealar esa yanada hayajonli tus oladi! “Binafsha shu’lasi II”",
+    category: "Smart soatlar",
+  },
   {
     id: "5",
     name: "Kids Smart Watch Y1",
