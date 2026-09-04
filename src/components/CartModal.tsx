@@ -311,8 +311,8 @@ Jami: ${totalCoins} coin
                   <option value="Namangan (Sardoba)">Namangan (Sardoba)</option>
                   <option value="Namangan (Do'stlik)">Namangan (Do'stlik)</option>
                   <option value="Namangan (Mingbuloq)">Namangan (Mingbuloq)</option>
-                  <option value="Namangan (Mingbuloq)">Namangan (To'raqo'rg'on)</option>
-                  <option value="Namangan (Mingbuloq)">Namangan (POP)</option>
+                  <option value="Namangan (To'raqo'rg'on)">Namangan (To'raqo'rg'on)</option>
+                  <option value="Namangan (POP)">Namangan (POP)</option>
                 </select>
               </div>
 
